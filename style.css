@@ -80,6 +80,24 @@ a{
 .welcome-section p{
   margin-top: 20px;
   font-size: 18px;
+  margin-bottom: 40px;
+}
+.about-section{
+  display: flex;
+  margin-left: 35px;
+}
+.about-section img{
+  width: 500px;
+  height: 600px;
+}
+.about-section h2{
+  color:rgb(0,112,206) ;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.about-section p{
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 
