@@ -14,12 +14,16 @@
   background: blue;
   justify-content: space-between;
   align-items: center;
-  height: 1;
+  height:100vh;
   flex-basis: 22%;
 }
 .right-section{
   flex-basis: 78%;
+  height: ;
 
+}
+.right-section img{
+  height: 800px;
 }
 
 
