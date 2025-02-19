@@ -5,6 +5,7 @@
 }
 
 #header{
+  position: fixed;
   height: 100vh;
   width: 300px;
   display: flex;
@@ -29,6 +30,12 @@
   padding: 10px;
   color: #fff;
 }
-#header nav ul li{
-  
+#header>nav ul li a{
+  text-decoration: none;
 }
+
+.container{
+  display:flex ;
+  width: 100%;
+}
+
