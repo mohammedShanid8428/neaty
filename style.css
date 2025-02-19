@@ -4,16 +4,24 @@
   box-sizing: border-box;
 }
 
-#header{
-  position: fixed;
-  height: 100vh;
-  width: 300px;
+.header-section{
+  display: flex;
+  width: 100%;
+}
+.left-section{
   display: flex;
   flex-direction: column;
+  background: blue;
   justify-content: space-between;
-  align-items: stretch;
-  background-color: rgb(100, 100, 233);
+  align-items: center;
+  height: 1;
+  flex-basis: 22%;
 }
+.right-section{
+  flex-basis: 78%;
+
+}
+
 
 .logo{
   font-size: 30px;
@@ -23,10 +31,7 @@
   /* margin-top: -100px; */
 }
 
-#header nav ul{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+.left-section>nav ul{
   padding: 10px;
   color: #fff;
 }
@@ -36,6 +41,14 @@
 
 .container{
   display:flex ;
+  width: 100vw;
+  flex-basis: 100%;
+  
+}
+.image-section img{
   width: 100%;
+
+}
+
 }
 
